@@ -16,7 +16,7 @@ int maiorElemento(int arr[], int tamanho) {
 }
 
 int main() {
-    int numeros[] = {5, 2, 9, 1, 6}; // Definição do array
+    int numeros[] = {5, 2, 9, 1, 6, 7, 0 , 11, 15, 10, 3}; // Definição do array
     int tamanho = sizeof(numeros) / sizeof(numeros[0]); // Cálculo do tamanho do array
 
     int maior = maiorElemento(numeros, tamanho); // Chama a função e armazena o resultado
